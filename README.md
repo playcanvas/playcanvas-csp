@@ -3,7 +3,7 @@ Downloads a Playcanvas project, unzips it, adds [Content Security Policy](https:
 CSP rules are defined in `config.json` and the Playcanvas Auth token is defined in `.env`
 
 ## Requirements
-Install [Node JS](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm)
+Install [Node JS (v12+)](https://nodejs.org/en/download/) and [npm](https://www.npmjs.com/get-npm)
 
 ## Setup
 1. Clone this repo
