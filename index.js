@@ -25,7 +25,8 @@ function downloadProject(config) {
                 "name": config.playcanvas.project_name,
                 "scenes": config.playcanvas.scenes,
                 "preload_bundle": config.playcanvas.preload_bundle,
-                "branch_id": config.playcanvas.branch_id
+                "branch_id": config.playcanvas.branch_id,
+                "scripts_concatenate": config.playcanvas.scripts_concatenate
             }),
             headers: {
                 'Content-Type': 'application/json',
@@ -137,7 +138,7 @@ function zipProject(rootFolder) {
         }
         zip.writeZip(output);
         fs.rmdirSync(rootFolder, {recursive:true});
-        console.log("✔️... Done!", output)        
+        console.log("✔️... Done!", output)
         resolve(output);
     });
 }
@@ -149,7 +150,7 @@ function getCspMetadataTag() {
         content += key;
         for (var i in config.csp[key]) {
             var value = config.csp[key][i];
-            content += " " + value 
+            content += " " + value
         }
         content += "; "
     }

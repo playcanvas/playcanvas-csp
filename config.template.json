@@ -4,7 +4,8 @@
         "project_name": "Bitmoji Plaza",
         "scenes" : [123, 234, 345],
         "preload_bundle" : true,
-        "branch_id": "abcde-1234-cdbae-abcde-1234-cdbae"
+        "branch_id": "abcde-1234-cdbae-abcde-1234-cdbae",
+        "scripts_concatenate": true
     },
     "csp": {
         "style-src": [
