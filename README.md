@@ -1,3 +1,6 @@
+# This repo is deprecated
+Please use the CSP script in [playcanvas-rest-api-tools](https://github.com/playcanvas/playcanvas-rest-api-tools#downloading-a-build-and-add-csp-rules) instead
+
 # playcanvas-csp-replacer
 Downloads a Playcanvas project, unzips it, adds [Content Security Policy](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Content-Security-Policy) rules to it and re-packages it into a .zip file that can be uploaded to be served over HTTP.
 CSP rules are defined in `config.json` and the Playcanvas Auth token is defined in `.env`
