@@ -9,8 +9,8 @@
   "author": "edgar@snap.com",
   "license": "MIT",
   "dependencies": {
-    "adm-zip": "^0.4.14",
+    "adm-zip": "^0.5.4",
     "dotenv": "^8.2.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.1"
   }
 }
